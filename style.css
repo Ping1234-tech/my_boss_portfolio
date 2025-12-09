@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  width: 100%;
+  padding: 25px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links a {
+  text-decoration: none;
+  margin: 0 18px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.email {
+  font-size: 15px;
+  color: #222;
+}
+
+/* HERO SECTION */
+.hero {
+  width: 100%;
+  padding: 50px 70px;
+}
+
+.role-badge {
+  background: #e5fbee;
+  padding: 8px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 14px;
+  color: #118f54;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  max-width: 850px;
+  margin-bottom: 40px;
+}
+
+.highlight {
+  background-color: #a7ffae;
+  padding: 0 6px;
+  border-radius: 4px;
+}
+
+/* HERO GRID */
+.hero-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.hello-card {
+  width: 380px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.05);
+}
+
+.hello-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.hello-text {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.hero-image img {
+  width: 350px;
+}
+
+/* ABOUT SECTION */
+.about {
+  padding: 60px 70px;
+}
+
+.about-card {
+  background: #ffffff;
+  padding: 35px;
+  max-width: 650px;
+  border-radius: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.about-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+.about-image-box {
+  width: 100%;
+  height: 220px;
+  background: #eee;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.about-image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-icon {
+  font-size: 24px;
+}
+
